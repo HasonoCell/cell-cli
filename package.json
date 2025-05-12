@@ -1,0 +1,22 @@
+{
+  "name": "cell-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cell-cli": "src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.6.1",
+    "ora": "^8.2.0"
+  }
+}
