@@ -16,6 +16,7 @@ export const downloadTemplate = (branch, projectName) => {
     download(
       `direct:https://gitee.com/chinafaker/vue-template.git#${branch}`,
       projectName,
+      { clone: true },
       (err) => {
         if (err) {
           reject(err);
